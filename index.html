@@ -3,36 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <title>Your Name</title>
-  <img src="photo.jpg" alt="Photo of Your Name" class="profile-photo">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="header">
-  <img src="photo.jpg" alt="Photo of Your Name" class="profile-photo">
+  <!-- HEADER BLOCK -->
+  <div class="header">
+    <img src="photo.jpg" alt="Photo of Your Name" class="profile-photo">
 
-  <div>
-    <h1>Your Name</h1>
+    <div>
+      <h1>Your Name</h1>
 
-    <p>
-      Mathematician<br>
-      University of …, Uruguay
-    </p>
+      <p>
+        Mathematician<br>
+        University of …, Uruguay
+      </p>
 
-    <p>
-      <a href="cv.pdf">CV</a> |
-      <a href="publications.html">Publications</a> |
-      <a href="teaching.html">Teaching</a>
-    </p>
+      <p>
+        <a href="cv.pdf">CV</a> |
+        <a href="#publications">Publications</a> |
+        <a href="#teaching">Teaching</a>
+      </p>
+    </div>
   </div>
-</div>
+  <!-- END HEADER BLOCK -->
 
+  <!-- EVERYTHING BELOW GOES HERE -->
+  <h2 id="research">Research interests</h2>
+  <ul>
+    <li>Area 1</li>
+    <li>Area 2</li>
+    <li>Area 3</li>
+  </ul>
 
-<p>
-<a href="cv.pdf">CV</a> |
-<a href="#publications">Publications</a> |
-<a href="#teaching">Teaching</a>
-</p>
+  <h2 id="publications">Publications</h2>
+  <ul>
+    <li>
+      <strong>Paper title</strong><br>
+      Journal, year.
+      <a href="https://arxiv.org/abs/xxxx">arXiv</a>
+    </li>
+  </ul>
+
+  <h2 id="teaching">Teaching</h2>
+  <ul>
+    <li>Course name — Year</li>
+  </ul>
 
 </body>
 </html>
